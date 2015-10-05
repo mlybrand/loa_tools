@@ -44,4 +44,13 @@ I am pretty sure that I want to have a grunt task, using watch for dev with the 
 I will also want a task that has the test suites run continuously (and I will want unit, integration and all).
 
 But what do I want to have happen as default?
+
+I think I want default to do the following:
+
+* lint
+* run all tests
+* run sass tasks
+* concatenate and uglify all js and css
+* clear out dist folder
+* move all files to dist folder for deployment
   
