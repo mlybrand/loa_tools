@@ -35,4 +35,13 @@ It is this structure that I will point to for heroku (and which I will promote t
 
 That is the plan at least
 
+
+10/05/2015 @ 00:00
+
+First issue that I have is what exactly do I want to have happen as my default grunt task.
+
+I am pretty sure that I want to have a grunt task, using watch for dev with the app respawning.
+I will also want a task that has the test suites run continuously (and I will want unit, integration and all).
+
+But what do I want to have happen as default?
   
