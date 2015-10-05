@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mlybrand/loa_tools/issues"
   },
-  "homepage": "https://github.com/mlybrand/loa_tools#readme"
+  "homepage": "https://github.com/mlybrand/loa_tools#readme",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
 }
