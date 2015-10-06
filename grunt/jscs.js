@@ -4,12 +4,10 @@
     var srcFiles = require('./includes/jsFiles');
 
     module.exports = {
-        jshint: {
+        jscs: {
+            src: srcFiles,
             options: {
-                jshintrc: '.jshintrc'
-            },
-            files: {
-                src: srcFiles
+                config: '.jscsrc'
             }
         }
     };
