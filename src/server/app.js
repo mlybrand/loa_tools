@@ -1,11 +1,11 @@
-(function () {
+(function() {
     'use strict';
 
-    var start = function () {
+    var start = function() {
         console.log('starting');
     };
 
-    var stop = function () {
+    var stop = function() {
         console.log('stopping');
     };
 
