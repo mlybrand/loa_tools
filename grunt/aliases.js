@@ -1,5 +1,6 @@
 module.exports = {
     'default': [
-        'jshint'
+        'jshint',
+        'hello'
     ]
 };
