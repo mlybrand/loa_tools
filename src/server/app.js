@@ -6,7 +6,10 @@
         server = null;
 
     app.get('/', function(req, res) {
-        res.send('<html><head><title>Hello World</title></head><body><h1>Hello World</h1></body></html>');
+        var head = '<head><title>Hello World</title></head>',
+            body = '<body><h1>Hello World</h1></body>',
+            page = '<html>' + head + body + '</html>';
+        res.send(page);
     });
 
     server = app.listen(3000, function() {
