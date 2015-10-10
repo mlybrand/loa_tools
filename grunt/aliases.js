@@ -9,7 +9,7 @@ module.exports = {
     ],
     'trial_run': [
         'run:dev',
-        'open:dev',
+        'protractor:e2e',
         'stop:dev'
     ]
 };

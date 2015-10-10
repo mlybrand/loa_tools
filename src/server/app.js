@@ -6,7 +6,7 @@
         server = null;
 
     app.get('/', function(req, res) {
-        res.send('Hello World');
+        res.send('<html><head><title>Hello World</title></head><body><h1>Hello World</h1></body></html>');
     });
 
     server = app.listen(3000, function() {
