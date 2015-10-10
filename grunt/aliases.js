@@ -6,5 +6,10 @@ module.exports = {
     ],
     'dev': [
         'default'
+    ],
+    'trial_run': [
+        'run:dev',
+        'open:dev',
+        'stop:dev'
     ]
 };

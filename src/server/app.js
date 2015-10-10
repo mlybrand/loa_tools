@@ -1,16 +1,17 @@
-(function () {
+(function() {
     'use strict';
 
     var express = require('express'),
-        app = express();
+        app = express(),
+        server = null;
 
-    app.get('/', function (req, res) {
+    app.get('/', function(req, res) {
         res.send('Hello World');
     });
 
-    var server = app.listen(3000, function () {
-        var host = server.address().address;
-        var port = server.address().port;
+    server = app.listen(3000, function() {
+        var host = server.address().address,
+            port = server.address().port;
 
         console.log('Listening at %s:%s', host, port);
     });
