@@ -8,5 +8,10 @@ module.exports = {
         options: {
             keepAlive: false
         }
+    },
+    continuous: {
+        options: {
+            keepAlive: true
+        }
     }
 };

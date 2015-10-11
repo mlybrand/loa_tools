@@ -2,12 +2,12 @@ module.exports = {
     'default': [
         'jshint',
         'jscs',
-        'hello'
+        'test:e2e'
     ],
     'dev': [
         'default'
     ],
-    'trial_run': [
+    'test:e2e': [
         'run:dev',
         'protractor:e2e',
         'stop:dev'
