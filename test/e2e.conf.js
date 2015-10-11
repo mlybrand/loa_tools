@@ -1,6 +1,11 @@
-exports.config = {
-    specs: [
-        'spec.js'
-    ],
-    baseUrl: 'http://localhost:3000/'
-};
+(function() {
+    'use strict';
+
+    var specFiles = require('./protractorSpecs'),
+        baseUrl = require('./baseUrl');
+
+    exports.config = {
+        specs: specFiles,
+        baseUrl: baseUrl
+    };
+}());

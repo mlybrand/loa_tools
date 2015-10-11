@@ -6,11 +6,13 @@ module.exports = {
     },
     e2e: {
         options: {
+            configFile: 'test/e2e.conf.js',
             keepAlive: false
         }
     },
     continuous: {
         options: {
+            configFile: 'test/continuous.conf.js',
             keepAlive: true
         }
     }
