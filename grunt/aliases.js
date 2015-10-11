@@ -6,8 +6,7 @@ module.exports = {
     ],
     'travis': [
         'jshint',
-        'jscs',
-        'test:e2e-travis'
+        'jscs'
     ],
     'dev': [
         'default'
