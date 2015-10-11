@@ -4,6 +4,10 @@ module.exports = {
         'jscs',
         'test:e2e'
     ],
+    'travis': [
+        'jshint',
+        'jscs'
+    ],
     'dev': [
         'default'
     ],
