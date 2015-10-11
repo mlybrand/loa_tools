@@ -3,3 +3,6 @@ node_js:
   - "0.12"
 before_install:
   - npm install -g grunt-cli
+  - npm install -g protractor
+before_script:
+  - webdriver-manager update --standalone --firefox

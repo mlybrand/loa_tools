@@ -6,7 +6,8 @@ module.exports = {
     ],
     'travis': [
         'jshint',
-        'jscs'
+        'jscs',
+        'test:e2e-travis'
     ],
     'dev': [
         'default'
@@ -14,6 +15,11 @@ module.exports = {
     'test:e2e': [
         'run:dev',
         'protractor:e2e',
+        'stop:dev'
+    ],
+    'test:e2e-travis': [
+        'run:dev',
+        'exec',
         'stop:dev'
     ],
     'test:continuous': [
