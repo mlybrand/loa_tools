@@ -6,6 +6,9 @@
 
     exports.config = {
         specs: specFiles,
-        baseUrl: baseUrl
+        baseUrl: baseUrl,
+        capabilities: {
+            browserName: 'firefox'
+        }
     };
 }());

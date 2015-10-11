@@ -1,4 +1,3 @@
-* make two separate protractor test sections (one with phantom for continuous testing and another with firefox for e2e)
 * try to wire up protractor w/o using grunt-protractor-runner to use on travis
 * wire up karma in the same way I have wired up protractor
 * get karma working on travis
