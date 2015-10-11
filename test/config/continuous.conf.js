@@ -1,8 +1,8 @@
 (function() {
     'use strict';
 
-    var specFiles = require('./protractorSpecs'),
-        baseUrl = require('./baseUrl');
+    var specFiles = require('./../includes/protractorSpecs'),
+        baseUrl = require('./../includes/baseUrl');
 
     exports.config = {
         specs: specFiles,
