@@ -26,7 +26,6 @@
     "grunt-jscs": "^2.1.0",
     "grunt-protractor-runner": "^2.1.0",
     "grunt-run": "^0.5.1",
-    "load-grunt-config": "^0.17.2",
-    "protractor": "^2.5.1"
+    "load-grunt-config": "^0.17.2"
   }
 }
