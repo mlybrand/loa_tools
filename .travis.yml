@@ -4,5 +4,5 @@ node_js:
 before_install:
   - npm install -g grunt-cli
   - npm install -g phantomjs
-after_install:
+before_script:
   - node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update
