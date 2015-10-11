@@ -15,5 +15,10 @@ module.exports = {
         'run:dev',
         'protractor:e2e',
         'stop:dev'
+    ],
+    'test:continuous': [
+        'run:dev',
+        'protractor:continuous',
+        'stop:dev'
     ]
 };
