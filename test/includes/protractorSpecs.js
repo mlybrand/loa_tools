@@ -1,3 +1,3 @@
 module.exports = [
-    '../spec.js'
+    '../../spec.js'
 ];

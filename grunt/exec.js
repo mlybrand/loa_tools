@@ -5,6 +5,6 @@
 
 module.exports = {
     exec: {
-        cmd: 'protractor test/config/e2e.conf.js'
+        cmd: 'protractor test/config/protractor/e2e.conf.js'
     }
 };
