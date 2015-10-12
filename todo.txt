@@ -1,3 +1,4 @@
+* need to get grunt watch working
 * wire up karma in the same way I have wired up protractor
 * get karma working on travis
 * wire up supertest for api
