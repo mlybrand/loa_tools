@@ -5,7 +5,7 @@ module.exports = {
     },
     e2e: {
         options: {
-            configFile: 'test/config/protractor/e2e.conf.js',
+            configFile: 'test/config/protractor/ci.conf.js',
             keepAlive: false
         }
     },

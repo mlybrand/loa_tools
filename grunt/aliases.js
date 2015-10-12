@@ -4,10 +4,10 @@ module.exports = {
         'jscs',
         'test:e2e'
     ],
-    'travis': [
+    'ci': [
         'jshint',
         'jscs',
-        'test:e2e-travis'
+        'test:e2e-ci'
     ],
     'dev': [
         'default'
@@ -17,7 +17,7 @@ module.exports = {
         'protractor:e2e',
         'stop:dev'
     ],
-    'test:e2e-travis': [
+    'test:e2e-ci': [
         'run:dev',
         'exec',
         'stop:dev'
