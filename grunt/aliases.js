@@ -2,7 +2,7 @@ module.exports = {
     'default': [
         'jshint',
         'jscs',
-        'test:e2e'
+        'test:e2e-single'
     ],
     'ci': [
         'jshint',
@@ -12,7 +12,7 @@ module.exports = {
     'dev': [
         'default'
     ],
-    'test:e2e': [
+    'test:e2e-single': [
         'run:dev',
         'protractor:e2e',
         'stop:dev'
@@ -22,7 +22,7 @@ module.exports = {
         'exec',
         'stop:dev'
     ],
-    'test:continuous': [
+    'test:e2e-continuous': [
         'run:dev',
         'protractor:continuous',
         'stop:dev'
