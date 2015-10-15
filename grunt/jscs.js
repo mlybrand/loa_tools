@@ -4,11 +4,9 @@
     var srcFiles = require('./includes/jsFiles');
 
     module.exports = {
-        jscs: {
-            src: srcFiles,
-            options: {
-                config: '.jscsrc'
-            }
+        src: srcFiles,
+        options: {
+            config: '.jscsrc'
         }
     };
 }());

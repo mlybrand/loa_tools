@@ -4,7 +4,5 @@
 // protractor on travis
 
 module.exports = {
-    exec: {
-        cmd: 'protractor test/client/config/protractor/ci.conf.js'
-    }
+    cmd: 'protractor test/client/config/protractor/ci.conf.js'
 };
