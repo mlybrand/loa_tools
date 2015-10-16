@@ -6,6 +6,6 @@
     describe('foo', function() {
         it('works', function() {
             expect('foo').to.equal('foo');
-        })
+        });
     });
 }());
