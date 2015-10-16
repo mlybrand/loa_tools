@@ -13,13 +13,14 @@
             },
             autoWatch: true,
             frameworks: ['mocha', 'chai', 'browserify'],
-            browsers: ['Chrome', 'Firefox'],
+            browsers: ['Chrome', 'Firefox', 'PhantomJS'],
             plugins: [
                 'karma-browserify',
                 'karma-mocha',
                 'karma-chai',
                 'karma-chrome-launcher',
-                'karma-firefox-launcher'
+                'karma-firefox-launcher',
+                'karma-phantomjs-launcher'
             ]
         });
     };

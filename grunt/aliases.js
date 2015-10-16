@@ -32,7 +32,7 @@ module.exports = {
         'karma:ci'
     ],
     'test:unit-client-continuous': [
-
+        'karma:continuous'
     ],
     'test:api-single': [
 
