@@ -3,12 +3,14 @@ module.exports = {
         'jshint',
         'jscs',
         'test:unit-server-single',
+        'test:unit-client-single',
         'test:e2e-single'
     ],
     'ci': [
         'jshint',
         'jscs',
         'test:unit-server-ci',
+        'test:unit-client-ci',
         'test:e2e-ci'
     ],
     'dev': [
@@ -24,10 +26,10 @@ module.exports = {
         'mochaTest'
     ],
     'test:unit-client-single': [
-
+        'karma:unit'
     ],
     'test:unit-client-ci': [
-
+        'karma:ci'
     ],
     'test:unit-client-continuous': [
 
