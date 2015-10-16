@@ -23,6 +23,24 @@ module.exports = {
     'test:unit-server-continuous': [
         'mochaTest'
     ],
+    'test:unit-client-single': [
+
+    ],
+    'test:unit-client-ci': [
+
+    ],
+    'test:unit-client-continuous': [
+
+    ],
+    'test:api-single': [
+
+    ],
+    'test:api-ci': [
+
+    ],
+    'test:api-continuous': [
+
+    ],
     'test:e2e-single': [
         'run:dev',
         'protractor:e2e',

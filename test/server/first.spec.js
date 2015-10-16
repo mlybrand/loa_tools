@@ -4,7 +4,7 @@
     var expect = require('chai').expect;
 
     describe('fake test', function() {
-        it('should fail', function() {
+        it('should pass', function() {
             expect(true).to.be.true;
         });
     });
