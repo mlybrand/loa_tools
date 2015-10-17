@@ -1,5 +1,3 @@
-* wire up supertest for api
-* get it working with travis
 * need to get grunt watch working
 * install angular
 * cucumber/protractor??
