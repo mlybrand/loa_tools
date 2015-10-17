@@ -17,13 +17,13 @@ module.exports = {
         'default'
     ],
     'test:unit-server-single': [
-        'mochaTest'
+        'mochaTest:unit'
     ],
     'test:unit-server-ci': [
-        'mochaTest'
+        'mochaTest:unit'
     ],
     'test:unit-server-continuous': [
-        'mochaTest'
+        'mochaTest:unit'
     ],
     'test:unit-client-single': [
         'karma:unit'
