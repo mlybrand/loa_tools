@@ -1,5 +1,5 @@
 module.exports = {
     test: {
-        src: ['test/server/**/*.spec.js']
+        src: ['test/server/**/*.test.js']
     }
 };
