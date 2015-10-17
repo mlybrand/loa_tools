@@ -4,7 +4,7 @@ module.exports = {
             wait: false
         },
         args: [
-            'src/server/app.js'
+            'src/server/server.js'
         ]
     }
 };

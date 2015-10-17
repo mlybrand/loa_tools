@@ -12,10 +12,5 @@
         res.send(page);
     });
 
-    server = app.listen(3000, function() {
-        var host = server.address().address,
-            port = server.address().port;
-
-        console.log('Listening at %s:%s', host, port);
-    });
+    module.exports = app;
 }());

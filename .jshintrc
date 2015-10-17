@@ -115,7 +115,9 @@
         //"exampleVar",
         //"anotherCoolGlobal",
         //"iLoveDouglas"
-        "browser"               // protractor/selenium browser object
+        "browser",               // protractor/selenium browser object
+        "before",                // mocha before
+        "after"                  // mocha after
     ],
     "indent"        : 4         // Specify indentation spacing
 }

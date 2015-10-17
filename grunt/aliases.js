@@ -4,12 +4,14 @@ module.exports = {
         'jscs',
         'test:unit-server-single',
         'test:unit-client-single',
+        'test:api-single',
         'test:e2e-single'
     ],
     'ci': [
         'jshint',
         'jscs',
         'test:unit-server-ci',
+        'test:api-ci',
         'test:unit-client-ci',
         'test:e2e-ci'
     ],
@@ -35,13 +37,13 @@ module.exports = {
         'karma:continuous'
     ],
     'test:api-single': [
-
+        'mochaTest:api'
     ],
     'test:api-ci': [
-
+        'mochaTest:api'
     ],
     'test:api-continuous': [
-
+        'mochaTest:api'
     ],
     'test:e2e-single': [
         'run:dev',
