@@ -2,9 +2,9 @@
     'use strict';
 
     module.exports = function(grunt) {
-        grunt.registerTask('hello', 'Remove me when actual task is added',
+        grunt.registerTask('hello', 'Remove task when actual task added',
             function() {
-                console.log(grunt.config.get('exec'));
+                console.log('Hello, World!');
             });
     };
 }());

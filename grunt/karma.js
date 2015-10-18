@@ -9,6 +9,6 @@ module.exports = {
     },
     continuous: {
         configFile: 'test/client/config/karma/karma-continuous.conf.js',
-        singleRun: false
+        singleRun: true
     }
 };

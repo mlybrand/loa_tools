@@ -1,5 +1,5 @@
 module.exports = {
-    dev: {
+    test: {
         options: {
             wait: false
         },

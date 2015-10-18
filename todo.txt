@@ -1,4 +1,3 @@
-* need to get grunt watch working
 * install angular
 * cucumber/protractor??
 * work from outside in

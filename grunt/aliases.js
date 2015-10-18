@@ -11,12 +11,20 @@ module.exports = {
         'jshint',
         'jscs',
         'test:unit-server-ci',
-        'test:api-ci',
         'test:unit-client-ci',
+        'test:api-ci',
         'test:e2e-ci'
     ],
     'dev': [
-        'default'
+        'concurrent:dev'
+    ],
+    'watch-tasks': [
+        'jshint',
+        'jscs',
+        'test:unit-server-continuous',
+        'test:unit-client-continuous',
+        'test:api-continuous',
+        'test:e2e-continuous'
     ],
     'test:unit-server-single': [
         'mochaTest:unit'
@@ -46,18 +54,18 @@ module.exports = {
         'mochaTest:api'
     ],
     'test:e2e-single': [
-        'run:dev',
+        'run:test',
         'protractor:e2e',
-        'stop:dev'
+        'stop:test'
     ],
     'test:e2e-ci': [
-        'run:dev',
+        'run:test',
         'exec',
-        'stop:dev'
+        'stop:test'
     ],
     'test:e2e-continuous': [
-        'run:dev',
+        'run:test',
         'protractor:continuous',
-        'stop:dev'
+        'stop:test'
     ]
 };
