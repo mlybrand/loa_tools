@@ -2,7 +2,8 @@
     'use strict';
 
     var supertest = require('supertest'),
-        port = 3000,
+        config = require('../../src/server/config'),
+        port = config.get('port'),
         url = 'http://localhost:' + port,
         api = supertest(url);
 
@@ -11,7 +12,7 @@
 
         before(function(done) {
             app = require('../../src/server/app');
-            server = app.listen(port, function() {
+            server = app(config).start(function() {
                 done();
             });
         });

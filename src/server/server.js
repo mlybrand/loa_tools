@@ -1,10 +1,11 @@
 (function() {
     'use strict';
 
-    var app = require('./app'),
+    var config = require('./config'),
+        app = require('./app'),
         port = process.env.PORT || 3000;
 
-    var server = app.listen(port, function() {
+    var server = app(config).start(function() {
         var host = server.address().address,
             port = server.address().port;
 

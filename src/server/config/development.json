@@ -1,0 +1,5 @@
+{
+  "env": "development",
+  "port": 3000  // this is reall for tests
+                // nodemon will set to 5455
+}
