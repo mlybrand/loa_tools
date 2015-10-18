@@ -2,8 +2,7 @@
     'use strict';
 
     var config = require('./config'),
-        app = require('./app'),
-        port = process.env.PORT || 3000;
+        app = require('./app');
 
     var server = app(config).start(function() {
         var host = server.address().address,
