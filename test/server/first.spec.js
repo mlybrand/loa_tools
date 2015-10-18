@@ -2,7 +2,8 @@
     'use strict';
 
     var supertest = require('supertest'),
-        url = 'http://localhost:3000',
+        port = 3000,
+        url = 'http://localhost:' + port,
         api = supertest(url);
 
     describe('Hitting the site', function() {
@@ -10,7 +11,7 @@
 
         before(function(done) {
             app = require('../../src/server/app');
-            server = app.listen(3000, function() {
+            server = app.listen(port, function() {
                 done();
             });
         });
