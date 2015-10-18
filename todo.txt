@@ -1,3 +1,4 @@
 * install angular
+* fix first.spec.js to go against angular site
 * cucumber/protractor??
 * work from outside in
