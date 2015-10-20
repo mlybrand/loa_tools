@@ -3,8 +3,8 @@
 
     describe('server test', function() {
         it('should pass', function() {
-            browser.driver.get('http://localhost:3000/');
-            expect(browser.driver.getTitle()).toBe('Hello World');
+            browser.get('http://localhost:3000/');
+            expect(browser.getTitle()).toBe('Hello World');
         });
     });
 }());

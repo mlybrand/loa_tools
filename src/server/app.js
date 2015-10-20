@@ -8,6 +8,10 @@
                 server = null,
                 staticFileMaps = config.get('staticFileMaps');
 
+            console.log(__dirname);
+            app.set('views', __dirname + '/views');
+            app.set('view engine', 'jade');
+
             for (var i = 0, len = staticFileMaps.length; i < len; i++) {
                 staticFileMaps[i].directoryName =
                     staticFileMaps[i].directoryName || '/';
@@ -16,11 +20,12 @@
             }
 
             app.get('/', function(req, res) {
-                var head = '<head><title>Hello World</title></head>',
-                    para = '<p>' + staticFileMaps + '</p>',
-                    body = '<body><h1>Hello World</h1>' + para + '</body>',
-                    page = '<html>' + head + body + '</html>';
-                res.send(page);
+                res.render('index');
+                //var head = '<head><title>Hello World</title></head>',
+                //    para = '<p>' + staticFileMaps + '</p>',
+                //    body = '<body><h1>Hello World</h1>' + para + '</body>',
+                //    page = '<html>' + head + body + '</html>';
+                //res.send(page);
             });
 
             return app.listen(config.get('port'), callback);

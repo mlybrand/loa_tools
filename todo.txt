@@ -1,18 +1,27 @@
-* all the testing stuff I have done needs one step beforehand
-  - the files have to be moved to a dist, because the static files need to be in "public"
 * fix first.spec.js to go against angular site (just ref angular from bower_components)
+    - app needs to serve views
+    - maybe node view super simple frame for angular view
+    - node view will need to handle script and css inclusion
+    - need to have a strategy
+* cucumber/protractor??
+* once cucumber is in, write meaningful specs
+* move files into dist
+* smcss
+* transpilation strategies (sass, babel)
+* concatenation strategies
+* minification strategies
+* bootstrap angular
+* accessibility
+
 * work out directory structure for deployed app
 * determine location of js files to be deployed.
-    - some kind of config file to map stuff over?
     - what is the file movement thing I have used?
-    - is there a way to have the view programmatically pick?
-        - no. performance as the final will be deployed.
-        - file needs to be processed before inclusion
-        - maybe a config that is separated by env
-        - there I might be able to refactor stuff away
-        - driving this by a separate config
-        - then I would just need to edit the separate config as I change stuff
-            -- how about views like: index.dev.html and index.prod.html ??
+    - then I would just need to edit the separate config as I change stuff
+        -- how about views like: index.dev.html and index.prod.html ??
 
-* cucumber/protractor??
+* deploy to heroku
+* set up smoke tests for heroku deployment
+* set up google analytics
+* look for logging strategies
+
 * work from outside in

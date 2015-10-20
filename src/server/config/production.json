@@ -1,6 +1,7 @@
 {
   "env": "production",
   "port": 3000,
+  "mainView": "index.prod",
   "staticFileMaps": [
     { "filePath": "/public", "directoryName": null }
   ]

@@ -27,6 +27,14 @@
             }
         }
     });
+    convict.addFormat({
+        name: 'main-view',
+        validate: function(val) {
+            if (typeof val !== 'string') {
+                throw new Error('Main View name must be a string');
+            }
+        }
+    });
 
     config = convict({
         env: {
@@ -36,10 +44,15 @@
             env: 'NODE_ENV'
         },
         port: {
-            doc: '',
+            doc: 'The application port',
             format: 'port',
             default: 3000,
             env: 'PORT'
+        },
+        mainView: {
+            doc: 'The main view name',
+            format: 'main-view',
+            default: 'index'
         },
         staticFileMaps: {
             doc: 'Array of objects { filePath:"directoryName" }',
