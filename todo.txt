@@ -1,11 +1,6 @@
-* fix first.spec.js to go against angular site (just ref angular from bower_components)
-    - app needs to serve views
-    - maybe node view super simple frame for angular view
-    - node view will need to handle script and css inclusion
-    - need to have a strategy
-* cucumber/protractor??
-* once cucumber is in, write meaningful specs
 * move files into dist
+* deploy to heroku
+* set up smoke tests for heroku deployment
 * smcss
 * transpilation strategies (sass, babel)
 * concatenation strategies
@@ -19,8 +14,6 @@
     - then I would just need to edit the separate config as I change stuff
         -- how about views like: index.dev.html and index.prod.html ??
 
-* deploy to heroku
-* set up smoke tests for heroku deployment
 * set up google analytics
 * look for logging strategies
 
