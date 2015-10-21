@@ -7,6 +7,10 @@ module.exports = {
         'test:api-single',
         'test:e2e-single'
     ],
+    'build': [
+        'default',
+        'clean'
+    ],
     'ci': [
         'jshint',
         'jscs',
