@@ -1,0 +1,11 @@
+{
+  "env": "development",
+  "port": 3000,
+  "mainView": "index.dev",
+  "staticFileMaps": [
+    {
+      "filePath": "/../../bower_components/angular",
+      "directoryName": "/js"
+    }
+  ]
+}

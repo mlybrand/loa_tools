@@ -9,7 +9,8 @@ module.exports = {
     ],
     'build': [
         'default',
-        'clean'
+        'clean',
+        'copy'
     ],
     'ci': [
         'jshint',
