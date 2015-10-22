@@ -7,7 +7,6 @@
                 app = express(),
                 server = null,
                 staticFileMaps = config.get('staticFileMaps');
-            console.log(staticFileMaps);
             app.set('views', __dirname + '/views');
             app.set('view engine', 'jade');
 

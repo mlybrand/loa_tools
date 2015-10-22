@@ -1,19 +1,4 @@
-* move files into dist
-dist
-|__server.js
-|__app.js
-|__config.js
-|__config
-|  |__production.json
-|__views
-|  |__index.jade
-|__public
-   |__js
-   |__css
-   |__html
-   |__fonts
-
-
+* need a favicon
 * deploy to heroku
 * set up smoke tests for heroku deployment
 * smcss
@@ -33,3 +18,17 @@ dist
 * look for logging strategies
 
 * work from outside in
+
+dist
+|__server.js
+|__app.js
+|__config.js
+|__config
+|  |__production.json
+|__views
+|  |__index.jade
+|__public
+   |__js
+   |__css
+   |__html
+   |__fonts

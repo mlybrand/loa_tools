@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Description pending.",
   "scripts": {
-    "test": "grunt ci"
+    "test": "grunt ci",
+    "start": "node ./dist/server"
   },
   "repository": {
     "type": "git",
@@ -46,5 +47,8 @@
     "mocha": "^2.3.3",
     "phantomjs": "^1.9.18",
     "supertest": "^1.1.0"
+  },
+  "engines": {
+    "node": "4.0.0"
   }
 }
