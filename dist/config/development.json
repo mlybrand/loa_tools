@@ -4,6 +4,10 @@
   "mainView": "index.dev",
   "staticFileMaps": [
     {
+      "filePath": "/public",
+      "directoryName": "/"
+    },
+    {
       "filePath": "/../../bower_components/angular",
       "directoryName": "/js"
     }

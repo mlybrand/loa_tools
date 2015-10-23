@@ -1,5 +1,4 @@
 * need a favicon
-* deploy to heroku
 * set up smoke tests for heroku deployment
 * smcss
 * transpilation strategies (sass, babel)
