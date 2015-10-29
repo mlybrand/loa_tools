@@ -3,7 +3,7 @@ module.exports = {
         files: [
             {
                 cwd: 'src/server',
-                src: ['**/*.*'],
+                src: ['**', '!sass/*'],
                 dest: 'dist',
                 filter: 'isFile',
                 expand: true

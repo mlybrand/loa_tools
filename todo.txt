@@ -1,6 +1,11 @@
+* transpilation strategies (sass, babel)
+    - sass job should look for sass files wherever
+    - sass files should be placed either in situ or in src/server/public/css
+        - prefer src/server/public/css
+    - custom sass files should be placed in src/server/sass folder
+
 * set up smoke tests for heroku deployment
 * smcss
-* transpilation strategies (sass, babel)
 * concatenation strategies
 * minification strategies
 * bootstrap angular

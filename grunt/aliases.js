@@ -1,5 +1,6 @@
 module.exports = {
     'default': [
+        'sass',
         'jshint',
         'jscs',
         'test:unit-server-single',
@@ -24,6 +25,7 @@ module.exports = {
         'concurrent:dev'
     ],
     'watch-tasks': [
+        'sass',
         'jshint',
         'jscs',
         'test:unit-server-continuous',

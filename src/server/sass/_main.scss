@@ -1,0 +1,9 @@
+$myColor: red;
+
+.foo {
+  color: $myColor;
+
+  .bar {
+    color: lighten($myColor, 30%);
+  }
+}
