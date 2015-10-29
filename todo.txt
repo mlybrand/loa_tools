@@ -1,21 +1,9 @@
-* transpilation strategies (sass, babel)
-    - sass job should look for sass files wherever
-    - sass files should be placed either in situ or in src/server/public/css
-        - prefer src/server/public/css
-    - custom sass files should be placed in src/server/sass folder
-
 * set up smoke tests for heroku deployment
 * smcss
 * concatenation strategies
 * minification strategies
 * bootstrap angular
 * accessibility
-
-* work out directory structure for deployed app
-* determine location of js files to be deployed.
-    - what is the file movement thing I have used?
-    - then I would just need to edit the separate config as I change stuff
-        -- how about views like: index.dev.html and index.prod.html ??
 
 * set up google analytics
 * look for logging strategies
