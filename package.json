@@ -36,7 +36,7 @@
     "grunt-mocha-test": "^0.12.7",
     "grunt-nodemon": "^0.4.0",
     "grunt-protractor-runner": "^2.1.0",
-    "grunt-run": "^0.5.1",
+    "grunt-run": "^0.5.2",
     "jshint-stylish": "^2.0.1",
     "karma": "^0.13.10",
     "karma-browserify": "^4.4.0",
