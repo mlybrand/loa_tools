@@ -5,6 +5,15 @@
 * bootstrap angular
 * accessibility
 
+* helmet
+* controller
+  - splash controller -> /
+  - login controller -> /login
+  - registration controller -> /register
+  - dashboard controller -> /dashboard
+
+* I need to think about what kind of client side routing I want
+
 * set up google analytics
 * look for logging strategies
 
