@@ -1,0 +1,6 @@
+npm install grunt-cli -g
+npm install bower -g
+npm install protractor -g
+[delete node_modules]
+npm install
+./node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update
