@@ -6,11 +6,19 @@
 * accessibility
 
 * helmet
+* ssl
 * controller
-  - splash controller -> /
-  - login controller -> /login
-  - registration controller -> /register
-  - dashboard controller -> /dashboard
+  - main controller -> /
+    - purpose of main controller is just to marshal users to other controllers based on state
+    - anonymous / splash not dismissed -> splash
+    - anonymous / splash dismissed -> info
+    - authenticated -> dash
+    - initially, I will only have main direct to splash since the state maintenance probably needs to be a service
+
+
+  - splash -> /splash
+  - info -> /info
+  - dash -> /dash
 
 * I need to think about what kind of client side routing I want
 

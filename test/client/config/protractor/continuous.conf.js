@@ -8,7 +8,8 @@
         specs: specFiles,
         baseUrl: baseUrl,
         capabilities: {
-            browserName: 'phantomjs'
+            browserName: 'phantomjs',
+            'phantomjs.binary.path': 'node_modules/.bin/phantomjs'
         }
     };
 }());
