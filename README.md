@@ -1,6 +1,7 @@
 # loa_tools
 
 [![Build Status](https://travis-ci.org/mlybrand/loa_tools.svg?branch=master)](https://travis-ci.org/mlybrand/loa_tools)
+[![Dependency Status](https://david-dm.org/mlybrand/loa_tools.svg)](https://david-dm.org/mlybrand/loa_tools)
 
 Okay, I like John Papa's directory structure as a start.  I will try to follow that as my src folder setup.
 
