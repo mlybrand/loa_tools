@@ -1,3 +1,5 @@
+* refactor files section out for common use by all karma configs
+
 * set up smoke tests for heroku deployment
 * smcss
 * concatenation strategies

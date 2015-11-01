@@ -27,6 +27,14 @@ module.exports = {
                 src: ['**/*.js'],
                 dest: 'dist/public/js',
                 filter: 'isFile',
+                expand: true,
+                flatten: true
+            },
+            {
+                cwd: 'src/client/html',
+                src: ['**'],
+                dest: 'dist/public/html',
+                filter: 'isFile',
                 expand: true
             }
         ]
