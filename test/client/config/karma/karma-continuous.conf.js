@@ -6,6 +6,7 @@
             basePath: '',
             files: [
                 '../../../../bower_components/angular/angular.js',
+                '../../../../bower_components/angular-route/angular-route.js',
                 '../../../../src/client/**/*.js',
                 '../../**/*.test.js'
             ],
