@@ -10,6 +10,18 @@
     {
       "filePath": "/../../bower_components/angular",
       "directoryName": "/js"
+    },
+    {
+      "filePath": "/../../bower_components/angular-route",
+      "directoryName": "/js"
+    },
+    {
+      "filePath": "/../client/js",
+      "directoryName": "/js"
+    },
+    {
+      "filePath": "/../client/html",
+      "directoryName": "/html"
     }
   ]
 }

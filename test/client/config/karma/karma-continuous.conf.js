@@ -5,6 +5,7 @@
         config.set({
             basePath: '',
             files: [
+                '../../../../bower_components/angular/angular.js',
                 '../../../../src/client/**/*.js',
                 '../../**/*.test.js'
             ],

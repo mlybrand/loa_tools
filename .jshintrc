@@ -115,6 +115,7 @@
         //"exampleVar",
         //"anotherCoolGlobal",
         //"iLoveDouglas"
+        "angular",
         "browser",               // protractor/selenium browser object
         "before",                // mocha before
         "after"                  // mocha after

@@ -14,6 +14,20 @@ module.exports = {
                 dest: 'dist/public/js',
                 filter: 'isFile',
                 expand: true
+            },
+            {
+                cwd: 'bower_components/angular-route',
+                src: ['angular-route.js'],
+                dest: 'dist/public/js',
+                filter: 'isFile',
+                expand: true
+            },
+            {
+                cwd: 'src/client',
+                src: ['**/*.js'],
+                dest: 'dist/public/js',
+                filter: 'isFile',
+                expand: true
             }
         ]
     }
