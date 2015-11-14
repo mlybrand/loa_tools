@@ -23,6 +23,13 @@ module.exports = {
                 expand: true
             },
             {
+                cwd: 'bower_components/angular-ui-router/release',
+                src: ['angular-ui-router.js'],
+                dest: 'dist/public/js',
+                filter: 'isFile',
+                expand: true
+            },
+            {
                 cwd: 'src/client',
                 src: ['**/*.js'],
                 dest: 'dist/public/js',

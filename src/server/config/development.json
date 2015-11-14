@@ -11,8 +11,8 @@
       "filePath": "/../../bower_components/angular",
       "directoryName": "/js"
     },
-    {
-      "filePath": "/../../bower_components/angular-route",
+     {
+      "filePath": "/../../bower_components/angular-ui-router/release",
       "directoryName": "/js"
     },
     {

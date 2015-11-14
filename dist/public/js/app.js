@@ -1,26 +1,29 @@
 (function() {
     'use strict';
 
-    var app = angular.module('app', ['ngRoute']);
+    var app = angular.module('app', ['ui.router']);
 
-    app.config(['$routeProvider', function($routeProvider) {
-        $routeProvider
-            .when('/', {
+    app.config(['$stateProvider', '$urlRouterProvider',
+            function($stateProvider, $urlRouterProvider) {
+        $stateProvider
+            .state('main', {
+                url: '/',
                 controller: 'MainController',
                 controllerAs: 'main',
-                template: '',
-                redirectTo: '/splash'
+                template: ''
             })
-            .when('/splash', {
+            .state('splash', {
+                url: '/splash',
                 controller: 'SplashController',
                 controllerAs: 'splash',
                 templateUrl: '/html/splash.html'
-            })
-            .otherwise('/');
+            });
+
+        $urlRouterProvider.otherwise('/');
     }]);
 
-    app.controller('MainController', [function() {
-
+    app.controller('MainController', ['$state', function($state) {
+        $state.go('splash');
     }]);
 
     app.controller('SplashController', [function() {
