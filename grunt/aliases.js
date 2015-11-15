@@ -1,5 +1,6 @@
 module.exports = {
     'default': [
+        'nsp',
         'sass',
         'jshint',
         'jscs',
