@@ -1,3 +1,6 @@
+* add task to remind me to run security check on dependencies
+* helmet
+
 * refactor files section out for common use by all karma configs
 
 * set up smoke tests for heroku deployment
@@ -7,7 +10,6 @@
 * bootstrap angular
 * accessibility
 
-* helmet
 * ssl
 * controller
   - main controller -> /
