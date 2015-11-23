@@ -6,28 +6,33 @@
     app.config(['$stateProvider', '$urlRouterProvider',
             function($stateProvider, $urlRouterProvider) {
         $stateProvider
-            .state('main', {
-                url: '/',
-                controller: 'MainController',
-                controllerAs: 'main',
-                template: ''
+            .state('noHeaderLayout', {
+                abstract: true,
+                views: {
+                    'layout': {
+                        templateUrl: '/html/no-header-layout.html'
+                    }
+                }
             })
-            .state('splash', {
-                url: '/splash',
-                controller: 'SplashController',
-                controllerAs: 'splash',
-                templateUrl: '/html/splash.html'
+            .state('cover', {
+                parent: 'noHeaderLayout',
+                url: '/',
+                views: {
+                    'noHeaderView': {
+                        templateUrl: '/html/cover.html'
+                    }
+                }
             });
 
         $urlRouterProvider.otherwise('/');
     }]);
 
-    app.controller('MainController', ['$state', function($state) {
-        $state.go('splash');
-    }]);
+    //app.controller('MainController', ['$state', function($state) {
+    //    console.log('yo');
+    //}]);
 
-    app.controller('SplashController', [function() {
-
-    }]);
+    //app.controller('CoverController', [function() {
+    //    console.log('moi');
+    //}]);
 
 }());

@@ -117,6 +117,8 @@
         //"iLoveDouglas"
         "angular",
         "browser",               // protractor/selenium browser object
+        "element",
+        "by",
         "before",                // mocha before
         "after"                  // mocha after
     ],

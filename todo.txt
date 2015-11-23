@@ -1,4 +1,13 @@
-* add task to remind me to run security check on dependencies
+main controller
+    * no-header
+        - splash (no url)
+        - error pages
+    * header
+        - everything else
+
+* cover: http://getbootstrap.com/examples/cover/#. use background that I dl and set sizing to "cover"
+    - remove header and footer
+
 * helmet
 
 * refactor files section out for common use by all karma configs
