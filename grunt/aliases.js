@@ -1,6 +1,7 @@
 module.exports = {
     'default': [
         'nspAlert',
+        'imagemin',
         'sass',
         'jshint',
         'jscs',
