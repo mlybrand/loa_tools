@@ -11,6 +11,7 @@ main controller
 * helmet
 
 * refactor files section out for common use by all karma configs
+* make two css builds. one for full page and one for headered pages.
 
 * set up smoke tests for heroku deployment
 * smcss
